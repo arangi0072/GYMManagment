@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:baselineAligned="false"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:id="@+id/member_icon"
+                                    android:layout_width="50dp"
+                                    android:layout_height="37dp"
+                                    android:layout_marginTop="5dp"
+                                    android:src="@drawable/baseline_groups_24" />
+
+                                <TextView
+                                    android:id="@+id/total_members"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="@dimen/text_left_margin"
+                                    android:layout_marginTop="@dimen/text_top_margin"
+                                    android:text="@string/total_members"
+                                    android:textColor="?attr/colorOnSecondary"
+                                    android:textSize="@dimen/text_size" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:id="@+id/member_icon2"
+                                    android:layout_width="50dp"
+                                    android:layout_height="37dp"
+                                    android:layout_marginTop="5dp"
+                                    android:src="@drawable/baseline_groups_24" />
+
+                                <TextView
+                                    android:id="@+id/total_active_members"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="@dimen/text_left_margin"
+                                    android:layout_marginTop="@dimen/text_top_margin"
+                                    android:text="@string/total_active_members"
+                                    android:textColor="?attr/colorOnSecondary"
+                                    android:textSize="@dimen/text_size" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:id="@+id/member_icon3"
+                                    android:layout_width="50dp"
+                                    android:layout_height="37dp"
+                                    android:layout_marginTop="5dp"
+                                    android:src="@drawable/baseline_groups_24" />
+
+                                <TextView
+                                    android:id="@+id/total_members_expires"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="@dimen/text_left_margin"
+                                    android:layout_marginTop="@dimen/text_top_margin"
+                                    android:text="@string/total_expires_members"
+                                    android:textColor="?attr/colorOnSecondary"
+                                    android:textSize="@dimen/text_size" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:id="@+id/imageView4"
+                                    android:layout_width="50dp"
+                                    android:layout_height="37dp"
+                                    android:layout_marginTop="5dp"
+                                    android:src="@drawable/currency_exchange" />
+
+                                <TextView
+                                    android:id="@+id/textView4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="@dimen/text_left_margin"
+                                    android:layout_marginTop="@dimen/text_top_margin"
+                                    android:text="@string/collection"
+                                    android:textColor="?attr/colorOnSecondary"
+                                    android:textSize="@dimen/text_size" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="30dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/total_members_numbers"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:textColor="?attr/colorOnSecondary"
+                                android:textSize="@dimen/text_size" />
+
+                            <TextView
+                                android:id="@+id/total_active_members_number"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="12dp"
+                                android:textColor="?attr/colorOnSecondary"
+                                android:textSize="@dimen/text_size" />
+
+                            <TextView
+                                android:id="@+id/total_members_expires_number"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="12dp"
+                                android:textColor="?attr/colorOnSecondary"
+                                android:textSize="@dimen/text_size" />
+
+                            <TextView
+                                android:id="@+id/colllection"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="13dp"
+                                android:textColor="#22FF00"
+                                android:textSize="@dimen/text_size" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </HorizontalScrollView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycleview"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fabHome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="16dp"
+                android:clickable="true"
+                android:src="@drawable/baseline_add_24"
+                app:backgroundTint="#FFC78D"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

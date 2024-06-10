@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "299827152241",
+    "firebase_url": "https://gym-management-458da-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "gym-management-458da",
+    "storage_bucket": "gym-management-458da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:299827152241:android:91dbf19e26d2bd710062d0",
+        "android_client_info": {
+          "package_name": "com.arpit.gymmanagment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "299827152241-mogaghl8rst89epbh5nf84k08l0acqne.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.arpit.gymmanagment",
+            "certificate_hash": "cfd2297b320d40eb494d206ecbe2ede2b60da8c4"
+          }
+        },
+        {
+          "client_id": "299827152241-8so8thmq2laqujo4h644448ui2d3hhum.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBp95BKw7uHrhb6PBOUerknIovVFJTLJPE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "299827152241-3f2ib1m0v7ttt4k9jrfnbtm6ikicksjm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

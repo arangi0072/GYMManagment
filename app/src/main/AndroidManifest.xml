@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:enableOnBackInvokedCallback="true"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/gym"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@drawable/gym"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GYMManagment"
+        tools:targetApi="tiramisu">
+        <activity
+            android:name=".Transactions"
+            android:exported="false" />
+        <activity
+            android:name=".EditDetails"
+            android:exported="false" />
+        <activity
+            android:name=".MemberDetails"
+            android:exported="false" />
+        <activity
+            android:name=".DeveloperContact"
+            android:exported="false" />
+        <activity
+            android:name=".RechargeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DuePayment"
+            android:exported="false"
+            android:label="@string/title_activity_due_payment"
+            android:theme="@style/Theme.GYMManagment" />
+        <activity
+            android:name=".PlanDetails"
+            android:exported="false" />
+        <activity
+            android:name=".AddPlan"
+            android:exported="false" />
+        <activity
+            android:name=".AddMember"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomePage2Activity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.GYMManagment.NoActionBar" />
+    </application>
+
+</manifest>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_home_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_plans"
+            android:icon="@drawable/baseline_calendar"
+            android:title="@string/plans" />
+        <item
+            android:id="@+id/nav_members"
+            android:icon="@drawable/baseline_groups_24"
+            android:title="@string/members" />
+        <item
+            android:id="@+id/nav_transaction"
+            android:icon="@drawable/currency_exchange"
+            android:title="@string/transaction" />
+        <item
+            android:id="@+id/nav_due"
+            android:icon="@drawable/baseline_payment_24"
+            android:title="@string/due" />
+        <item
+            android:id="@+id/nav_recharge"
+            android:icon="@drawable/baseline_wifi_protected_setup_24"
+            android:title="@string/recharge" />
+    </group>
+
+</menu>

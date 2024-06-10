@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="questions">
+        <item>What is your favourite food?</item>
+        <item>Who is your favourite person?</item>
+        <item>Who is your favourite teacher?</item>
+        <item>What is your favourite place?</item>
+    </string-array>
+    <string-array name="plan_months">
+        <item>01 Month</item>
+        <item>02 Month</item>
+        <item>03 Month</item>
+        <item>04 Month</item>
+        <item>05 Month</item>
+        <item>06 Month</item>
+        <item>07 Month</item>
+        <item>08 Month</item>
+        <item>09 Month</item>
+        <item>10 Month</item>
+        <item>11 Month</item>
+        <item>12 Month</item>
+    </string-array>
+    <string-array name="payment_method">
+        <item>Cash</item>
+        <item>Online</item>
+    </string-array>
+
+</resources>
